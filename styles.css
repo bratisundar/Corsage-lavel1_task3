@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-bar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box {
+    padding: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    width: 23%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .contactButton,
+  .PhoneButton,
+  .Btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .contactButton:hover,
+  .PhoneButton:hover,
+  .Btn:hover {
+    background-color: #45a049;
+  }
+  
+  .Btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .svgContainer {
+    margin-right: 10px;
+  }
+  
+  .BG {
+    display: none;
+  }
+  
+  .contactButton a,
+  .PhoneButton a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .Phonenumber,
+  .social-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #contact {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  h2 {
+    font-size: 1.4em;
+  }
+  
